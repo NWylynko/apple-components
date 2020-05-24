@@ -1,0 +1,39 @@
+html {
+  display: flex;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.optionsContainer {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.optionContainer {
+  display: inline-flex;
+  border-style: solid;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 400px;
+  border-width: 2px;
+}
+
+.optionText {
+  margin: 4px;
+  padding: 4px;
+  max-width: 250px;
+  font-weight: 600;
+  color: #333;
+}
+
+.optionPrice {
+  margin: 4px;
+  padding: 4px;
+  font-weight: 400;
+  color: #333;
+}
